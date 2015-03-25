@@ -1,0 +1,10 @@
+Hei.
+Dette tekstdokumentet er lastet opp av Rune Holmdal.
+
+1. Installer GitHub programvaren.
+2. Åpne viking-trail-thingy på GitHub.
+3. Logg deg inn.
+4. Trykk på Clone in Desktop.
+5. Lag en ny tekstfil i din lokale prosjektmappe, GitHub Repository.
+   Skriv noe i filen og velg Sync i GitHub programvaren.
+6. Yes.
