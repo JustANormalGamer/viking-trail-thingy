@@ -1,0 +1,18 @@
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe.config
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.pdb
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csprojResolveAssemblyReference.cache
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Form1.resources
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Properties.Resources.resources
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csproj.GenerateResource.Cache
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.exe
+d:\goju1411\documents\visual studio 2013\Projects\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.pdb
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe.config
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.exe
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.pdb
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.pdb
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csprojResolveAssemblyReference.cache
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Form1.resources
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Properties.Resources.resources
+C:\Users\martin\Downloads\Tekstlogg-og-menyvalg-test\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csproj.GenerateResource.Cache
