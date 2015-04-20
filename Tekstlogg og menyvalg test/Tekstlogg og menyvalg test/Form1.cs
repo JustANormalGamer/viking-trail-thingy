@@ -19,22 +19,22 @@ namespace Tekstlogg_og_menyvalg_test
 
         private void buttonNW_Click(object sender, EventArgs e)
         {
-            
+            button_check(4);
         }
 
         private void buttonSW_Click(object sender, EventArgs e)
         {
-            
+            button_check(2);
         }
 
         private void buttonNE_Click(object sender, EventArgs e)
         {
-            
+            button_check(3);
         }
 
         private void buttonSE_Click(object sender, EventArgs e)
         {
-            
+            button_check(1);
         }
 
         private void button_check(int a) 
@@ -47,21 +47,21 @@ namespace Tekstlogg_og_menyvalg_test
                 buttonSW.Visible = false;
                 buttonSE.Visible = false;
             }
-            if (a == 3)
+            else if (a == 3)
             {
                 buttonSW.Enabled = true;
                 buttonSE.Enabled = false;
                 buttonSW.Visible = true;
                 buttonSE.Visible = false;
             }
-            if (a == 4)
+            else if (a == 4)
             {
                 buttonSW.Enabled = true;
                 buttonSE.Enabled = true;
                 buttonSW.Visible = true;
                 buttonSE.Visible = true;
             }
-            else
+            else 
             {
                 MessageBox.Show("feil på nummer for antall knapper");
             }
