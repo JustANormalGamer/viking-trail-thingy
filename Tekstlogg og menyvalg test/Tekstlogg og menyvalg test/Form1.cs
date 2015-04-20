@@ -61,6 +61,10 @@ namespace Tekstlogg_og_menyvalg_test
                 buttonSW.Visible = true;
                 buttonSE.Visible = true;
             }
+            else
+            {
+                MessageBox.Show("feil på nummer for antall knapper");
+            }
         }
     }
 }
