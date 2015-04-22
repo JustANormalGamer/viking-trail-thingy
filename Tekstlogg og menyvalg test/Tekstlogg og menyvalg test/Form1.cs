@@ -82,5 +82,32 @@ namespace Tekstlogg_og_menyvalg_test
             buttonNW.Text = Dialog[1];
             buttonNE.Text = Dialog[2];
         }
+
+        Inam i = new Inam();
+
+        public Form1()
+        {
+            InitializeComponent();
+            PbBy.Visible = false;
+        }
+
+        // funksjon for å bytte bakgrunn Forfatter: Inam
+        // feks når du trykker på en by på menyvalget så skal bilde av byen dukke opp
+
+        public void bytteBakgrunn()
+        {
+            if (PbBy.Visible == false)  //PbBy er da bakgrunnsbilde
+            {
+                PbBy.Visible = true;
+            }
+            else
+            {
+                PbBy.Visible = false;
+            }
+        }
+        private void btBy_Click(object sender, EventArgs e)
+        {
+            bytteBakgrunn();
+        }
     }
 }
