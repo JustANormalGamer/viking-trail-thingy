@@ -66,5 +66,21 @@ namespace Tekstlogg_og_menyvalg_test
                 MessageBox.Show("feil på nummer for antall knapper");
             }
         }
+
+        private void Dialog_Click(object sender, EventArgs e)
+        {
+            Button b = sender as Button;
+            Dialog(b.Text, label1.Text);
+        }
+
+        private void Dialog(string buttonPressed, string labelText)
+        {
+            string[] Dialog = new string[5];
+            var m = new Dialog();
+            Dialog = m.Dialogg(buttonPressed, labelText);
+            label1.Text = Dialog[0];
+            Dialog_button1.Text = Dialog[1];
+            Dialog_button2.Text = Dialog[2];
+        }
     }
 }

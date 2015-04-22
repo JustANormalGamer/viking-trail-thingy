@@ -42,7 +42,7 @@
             this.pictureBox1.Image = global::Tekstlogg_og_menyvalg_test.Properties.Resources.BakgrunnRødStor;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1366, 768);
+            this.pictureBox1.Size = new System.Drawing.Size(1036, 768);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -54,7 +54,7 @@
             this.buttonNW.TabIndex = 1;
             this.buttonNW.Text = "Ja";
             this.buttonNW.UseVisualStyleBackColor = true;
-            this.buttonNW.Click += new System.EventHandler(this.buttonNW_Click);
+            this.buttonNW.Click += new System.EventHandler(this.Dialog_Click);
             // 
             // buttonNE
             // 
@@ -64,7 +64,7 @@
             this.buttonNE.TabIndex = 2;
             this.buttonNE.Text = "Nei";
             this.buttonNE.UseVisualStyleBackColor = true;
-            this.buttonNE.Click += new System.EventHandler(this.buttonNE_Click);
+            this.buttonNE.Click += new System.EventHandler(this.Dialog_Click);
             // 
             // buttonSW
             // 
@@ -74,7 +74,7 @@
             this.buttonSW.TabIndex = 3;
             this.buttonSW.Text = "Handle";
             this.buttonSW.UseVisualStyleBackColor = true;
-            this.buttonSW.Click += new System.EventHandler(this.buttonSW_Click);
+            this.buttonSW.Click += new System.EventHandler(this.Dialog_Click);
             // 
             // buttonSE
             // 
@@ -84,13 +84,13 @@
             this.buttonSE.TabIndex = 4;
             this.buttonSE.Text = "plyndre";
             this.buttonSE.UseVisualStyleBackColor = true;
-            this.buttonSE.Click += new System.EventHandler(this.buttonSE_Click);
+            this.buttonSE.Click += new System.EventHandler(this.Dialog_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.ClientSize = new System.Drawing.Size(1036, 768);
             this.Controls.Add(this.buttonSE);
             this.Controls.Add(this.buttonSW);
             this.Controls.Add(this.buttonNE);
