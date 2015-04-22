@@ -76,11 +76,11 @@ namespace Tekstlogg_og_menyvalg_test
         private void Dialog(string buttonPressed, string labelText)
         {
             string[] Dialog = new string[5];
-            var m = new Dialog();
+            var m = new Sander();
             Dialog = m.Dialogg(buttonPressed, labelText);
             label1.Text = Dialog[0];
-            Dialog_button1.Text = Dialog[1];
-            Dialog_button2.Text = Dialog[2];
+            buttonNW.Text = Dialog[1];
+            buttonNE.Text = Dialog[2];
         }
     }
 }
