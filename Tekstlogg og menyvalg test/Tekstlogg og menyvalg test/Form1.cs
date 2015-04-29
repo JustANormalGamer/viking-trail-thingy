@@ -70,15 +70,15 @@ namespace Tekstlogg_og_menyvalg_test
         private void Dialog_Click(object sender, EventArgs e)
         {
             Button b = sender as Button;
-            Dialog(b.Text, label1.Text);
+            Dialog(b.Text, label2.Text);
         }
 
         private void Dialog(string buttonPressed, string labelText)
         {
-            string[] Dialog = new string[5];
+            string[] Dialog = new string[6];
             var m = new Sander();
             Dialog = m.Dialogg(buttonPressed, labelText);
-            label1.Text = Dialog[0];
+            label2.Text = Dialog[0];
             buttonNW.Text = Dialog[1];
             buttonNE.Text = Dialog[2];
         }
@@ -87,23 +87,23 @@ namespace Tekstlogg_og_menyvalg_test
         // funksjon for å bytte bakgrunn Forfatter: Inam
         // feks når du trykker på en by på menyvalget så skal bilde av byen dukke opp
         
-        PbBy.Visible = false;
+        //PbBy.Visible = false;
 
-        public void bytteBakgrunn()
-        {
-            if (PbBy.Visible == false)  //PbBy er da bakgrunnsbilde
-            {
-                PbBy.Visible = true;
-            }
-            else
-            {
-                PbBy.Visible = false;
-            }
-        }
+        //public void bytteBakgrunn()
+        //{
+        //    if (PbBy.Visible == false)  //PbBy er da bakgrunnsbilde
+        //    {
+        //        PbBy.Visible = true;
+        //    }
+        //    else
+        //    {
+        //        PbBy.Visible = false;
+        //    }
+        //}
         // knappen for å bytte bakgrunn
-        private void btBy_Click(object sender, EventArgs e)
-        {
-            bytteBakgrunn();
-        }
+        //private void btBy_Click(object sender, EventArgs e)
+        //{
+        //    bytteBakgrunn();
+        //}
     }
 }

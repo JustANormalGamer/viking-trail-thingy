@@ -10,14 +10,14 @@ namespace Tekstlogg_og_menyvalg_test
     {
         public string[] Dialogg(string buttonPressed, string labelText)
         {
-            string[] dialog = new string[5];
-
+            string[] dialog = new string[6];
+            //[0] = hva som skal stå i label [1]-[4] = Hva som skal stå på knappene [5] = hva som skal skje [6] = antall knapper som skal vises
             switch (buttonPressed)
             {
 
-                case "Hei":
+                case "Ja":
                     {
-                        labelText += "\nPlayer: Hei\nJulian: Hva vil du?";
+                        labelText += "\nPlayer: Ja\nViking: ";
                         dialog[0] = labelText;
                         dialog[1] = "Handle";
                         dialog[2] = "Plyndre";

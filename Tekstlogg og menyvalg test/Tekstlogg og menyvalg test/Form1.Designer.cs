@@ -33,9 +33,10 @@
             this.buttonNE = new System.Windows.Forms.Button();
             this.buttonSW = new System.Windows.Forms.Button();
             this.buttonSE = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Label_Panel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Label_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -44,7 +45,7 @@
             this.pictureBox1.Image = global::Tekstlogg_og_menyvalg_test.Properties.Resources.BakgrunnRødStor;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1036, 768);
+            this.pictureBox1.Size = new System.Drawing.Size(1367, 768);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -76,6 +77,7 @@
             this.buttonSW.TabIndex = 3;
             this.buttonSW.Text = "Handle";
             this.buttonSW.UseVisualStyleBackColor = true;
+            this.buttonSW.Visible = false;
             this.buttonSW.Click += new System.EventHandler(this.Dialog_Click);
             // 
             // buttonSE
@@ -86,34 +88,36 @@
             this.buttonSE.TabIndex = 4;
             this.buttonSE.Text = "plyndre";
             this.buttonSE.UseVisualStyleBackColor = true;
+            this.buttonSE.Visible = false;
             this.buttonSE.Click += new System.EventHandler(this.Dialog_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(875, 689);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(32, 33);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(271, 24);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Viking: ";
+            this.label2.Text = "Viking: Er du klar for å plyndre?";
+            // 
+            // Label_Panel
+            // 
+            this.Label_Panel.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.Label_Bakgrunn;
+            this.Label_Panel.Controls.Add(this.label2);
+            this.Label_Panel.Location = new System.Drawing.Point(25, 23);
+            this.Label_Panel.Name = "Label_Panel";
+            this.Label_Panel.Size = new System.Drawing.Size(337, 568);
+            this.Label_Panel.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1036, 768);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1367, 768);
+            this.Controls.Add(this.Label_Panel);
             this.Controls.Add(this.buttonSE);
             this.Controls.Add(this.buttonSW);
             this.Controls.Add(this.buttonNE);
@@ -124,8 +128,9 @@
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Label_Panel.ResumeLayout(false);
+            this.Label_Panel.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -136,8 +141,8 @@
         private System.Windows.Forms.Button buttonNE;
         private System.Windows.Forms.Button buttonSW;
         private System.Windows.Forms.Button buttonSE;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel Label_Panel;
     }
 }
 
