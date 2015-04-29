@@ -17,19 +17,20 @@ namespace Tekstlogg_og_menyvalg_test
 
                 case "Ja":
                     {
-                        labelText += "\nPlayer: Ja\nViking: ";
+                        labelText += "\nPlayer: Ja\nViking: Kaptein jeg ser en by i det fjerne\nJeg tror det er Lindesfarne!";
                         dialog[0] = labelText;
-                        dialog[1] = "Handle";
+                        dialog[1] = "Ta imot offer";
                         dialog[2] = "Plyndre";
+                        dialog[3] = "Til sjøs";
+                        dialog[5] = "Reise";
+                        dialog[6] = "3";
                         break;
                     }
 
-                case "Hvem er du?":
+                case "Nei":
                     {
-                        labelText += "\nPlayer: Hvem er du?\nJulian: Jeg er Sjef";
-                        dialog[0] = labelText;
-                        dialog[1] = "Over hva?";
-                        dialog[2] = "Hvorfor det?";
+                        labelText += "\nPlayer: Nei";
+                        dialog[5] = "Avslutt";
                         break;
                     }
                 case "Handle":
