@@ -10,7 +10,7 @@ namespace Tekstlogg_og_menyvalg_test
     {
         public string[] Dialogg(string buttonPressed, string labelText)
         {
-            string[] dialog = new string[6];
+            string[] dialog = new string[7];
             //[0] = hva som skal stå i label [1]-[4] = Hva som skal stå på knappene [5] = hva som skal skje [6] = antall knapper som skal vises
             switch (buttonPressed)
             {
@@ -30,12 +30,16 @@ namespace Tekstlogg_og_menyvalg_test
                 case "Nei":
                     {
                         labelText += "\nPlayer: Nei";
+                        dialog[0] = labelText;
+                        dialog[1] = "Ja";
+                        dialog[2] = "Nei";
                         dialog[5] = "Avslutt";
+                        dialog[6] = "2";
                         break;
                     }
-                case "Handle":
+                case "Ta imot offer":
                     {
-                        labelText += "\nPlayer: Handle\nJulian: Ok hva da?";
+                        labelText += "\nLandsby Ordfører: Ikke angrip!!!\nJulian: Gi oss penger så får vi se";
                         dialog[0] = labelText;
                         dialog[1] = "Båt";
                         dialog[2] = "Horer";

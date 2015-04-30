@@ -37,6 +37,7 @@ namespace Tekstlogg_og_menyvalg_test
             button_check(1);
         }
 
+        //martin sin button funksjon
         private void button_check(int a) 
         {
             // når du skal bruke denne for å velge antall knapper skriver du: button_check(); og inne i parantesen antall buttons du vil ha
@@ -67,6 +68,39 @@ namespace Tekstlogg_og_menyvalg_test
             }
         }
 
+        //Sander sin button fuksjon
+        private void Antall_Button(int a)
+        {
+            buttonNW.Visible = false;
+            buttonNE.Visible = false;
+            buttonSW.Visible = false;
+            buttonSE.Visible = false;
+
+            switch (a)
+            {
+                case 2:
+                    {
+                        buttonNW.Visible = true;
+                        buttonNE.Visible = true;
+                        break;
+                    }
+                case 3:
+                    {
+                        buttonNW.Visible = true;
+                        buttonNE.Visible = true;
+                        buttonSW.Visible = true;
+                        break;
+                    }
+                case 4:
+                    {
+                        buttonNW.Visible = true;
+                        buttonNE.Visible = true;
+                        buttonSW.Visible = true;
+                        buttonSE.Visible = true;
+                        break;
+                    }
+            }
+        }
         private void Dialog_Click(object sender, EventArgs e)
         {
             Button b = sender as Button;
@@ -75,18 +109,33 @@ namespace Tekstlogg_og_menyvalg_test
 
         private void Dialog(string buttonPressed, string labelText)
         {
-            string[] Dialog = new string[6];
+            string[] Dialog = new string[7];
             var m = new Sander();
             Dialog = m.Dialogg(buttonPressed, labelText);
             label2.Text = Dialog[0];
             buttonNW.Text = Dialog[1];
             buttonNE.Text = Dialog[2];
+            buttonSW.Text = Dialog[3];
+            buttonSE.Text = Dialog[4];
+            Antall_Button(Convert.ToInt16(Dialog[6]));
+            switch (Dialog[5])
+            {
+                case "Avslutt":
+                    {
+                        DialogResult dialogResult = MessageBox.Show("Vil du Avslutte?","Eventyret tar slutt", MessageBoxButtons.YesNo);
+                        if (dialogResult == DialogResult.Yes)
+                        {
+                            Application.Exit();
+                        }
+                        break;
+                    }
+            }
         }
 
 
         // funksjon for å bytte bakgrunn Forfatter: Inam
         // feks når du trykker på en by på menyvalget så skal bilde av byen dukke opp
-        
+
         //PbBy.Visible = false;
 
         //public void bytteBakgrunn()
@@ -100,7 +149,7 @@ namespace Tekstlogg_og_menyvalg_test
         //        PbBy.Visible = false;
         //    }
         //}
-        // knappen for å bytte bakgrunn
+        ////knappen for å bytte bakgrunn
         //private void btBy_Click(object sender, EventArgs e)
         //{
         //    bytteBakgrunn();
