@@ -151,29 +151,17 @@ namespace Tekstlogg_og_menyvalg_test
         #region Julian
         private void Form1_Load(object sender, EventArgs e)
         {
-            FileInfo fi = new FileInfo(Properties.Resources.ByInfo);
-            try
-            {
-                using (StreamReader sr = File.OpenText(Properties.Resources.ByInfo))
-                {
-                    string s = "";
-                    int i = 0;
-                    while (((s = sr.ReadLine()) != null))
-                    {
-                        string[] info = s.Split(';');
-                        bI[i].ByNavn = info[0];
-                        bI[i].ByPosX = Convert.ToInt16(info[1]);
-                        bI[i].ByPosY = Convert.ToInt16(info[2]);
-                        bI[i].PeaceOfferingVerdi = Convert.ToInt16(info[3]);
-                        bI[i].PlyndringVerdi = Convert.ToInt16(info[4]);
-                        i++;
-                    }
-                }
-            }
-            catch (Exception Ex)
-            {
-                MessageBox.Show(Ex.ToString());
-            }
+            bI[0] = new ByInfo("Bergen",866,190,0,0);
+            bI[1] = new ByInfo("Lindesfarne", 781, 249, 40, 150);
+            bI[2] = new ByInfo("York",776,272,30,130);
+            bI[3] = new ByInfo("Edinburgh",772,238,35,140);
+            bI[4] = new ByInfo("Shetland",813,162,20,90);
+            bI[4] = new ByInfo("Orkenøyene",803,182,25,100);
+            bI[4] = new ByInfo("Aberdeen",783,229,40,130);
+            bI[4] = new ByInfo("Skegness",788,302,40,140);
+            bI[4] = new ByInfo("London",773,340,50,200);
+            bI[4] = new ByInfo("Paris",791,393,70,250);
+            bI[4] = new ByInfo("Amsterdam",834,333,60,230);
         }
         #endregion
 
