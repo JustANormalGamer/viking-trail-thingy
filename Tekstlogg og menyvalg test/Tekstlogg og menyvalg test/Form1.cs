@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace Tekstlogg_og_menyvalg_test
 {
@@ -17,6 +19,11 @@ namespace Tekstlogg_og_menyvalg_test
             InitializeComponent();
         }
 
+        //julian
+        ByInfo[] bI = new ByInfo[11];
+
+        //martin sin button funksjon
+        #region martin
         private void buttonNW_Click(object sender, EventArgs e)
         {
             button_check(4);
@@ -36,10 +43,9 @@ namespace Tekstlogg_og_menyvalg_test
         {
             button_check(1);
         }
-
-        //martin sin button funksjon
         private void button_check(int a) 
         {
+
             // når du skal bruke denne for å velge antall knapper skriver du: button_check(); og inne i parantesen antall buttons du vil ha
             if (a == 2) 
             {
@@ -67,6 +73,7 @@ namespace Tekstlogg_og_menyvalg_test
                 MessageBox.Show("feil på nummer for antall knapper");
             }
         }
+        #endregion
 
         //Sander sin button fuksjon
         private void Antall_Button(int a)
@@ -129,8 +136,42 @@ namespace Tekstlogg_og_menyvalg_test
                         }
                         break;
                     }
+                case "Reise":
+                    {
+
+                        break;
+                    }
             }
         }
+
+        #region Julian
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            FileInfo fi = new FileInfo(Properties.Resources.ByInfo);
+            try
+            {
+                using (StreamReader sr = File.OpenText(Properties.Resources.ByInfo))
+                {
+                    string s = "";
+                    int i = 0;
+                    while (((s = sr.ReadLine()) != null))
+                    {
+                        string[] info = s.Split(';');
+                        bI[i].ByNavn = info[0];
+                        bI[i].ByPosX = Convert.ToInt16(info[1]);
+                        bI[i].ByPosY = Convert.ToInt16(info[2]);
+                        bI[i].PeaceOfferingVerdi = Convert.ToInt16(info[3]);
+                        bI[i].PlyndringVerdi = Convert.ToInt16(info[4]);
+                        i++;
+                    }
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.ToString());
+            }
+        }
+        #endregion
 
 
         // funksjon for å bytte bakgrunn Forfatter: Inam

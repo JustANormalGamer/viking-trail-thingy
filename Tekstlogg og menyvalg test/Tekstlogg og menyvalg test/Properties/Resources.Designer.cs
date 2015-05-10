@@ -79,5 +79,7 @@ namespace Tekstlogg_og_menyvalg_test.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        public static string ByInfo { get; set; }
     }
 }

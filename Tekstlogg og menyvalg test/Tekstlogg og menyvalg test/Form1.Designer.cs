@@ -35,8 +35,10 @@
             this.buttonSE = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.Label_Panel = new System.Windows.Forms.Panel();
+            this.pb_Reise = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Label_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Reise)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -112,11 +114,21 @@
             this.Label_Panel.Size = new System.Drawing.Size(337, 568);
             this.Label_Panel.TabIndex = 7;
             // 
+            // pb_Reise
+            // 
+            this.pb_Reise.Location = new System.Drawing.Point(571, 23);
+            this.pb_Reise.Name = "pb_Reise";
+            this.pb_Reise.Size = new System.Drawing.Size(596, 568);
+            this.pb_Reise.TabIndex = 8;
+            this.pb_Reise.TabStop = false;
+            this.pb_Reise.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 768);
+            this.Controls.Add(this.pb_Reise);
             this.Controls.Add(this.Label_Panel);
             this.Controls.Add(this.buttonSE);
             this.Controls.Add(this.buttonSW);
@@ -127,9 +139,11 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Label_Panel.ResumeLayout(false);
             this.Label_Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Reise)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -143,6 +157,7 @@
         private System.Windows.Forms.Button buttonSE;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel Label_Panel;
+        private System.Windows.Forms.PictureBox pb_Reise;
     }
 }
 
