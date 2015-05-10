@@ -22,7 +22,7 @@ namespace Tekstlogg_og_menyvalg_test
         //julian
         ByInfo[] bI = new ByInfo[11];
 
-        //martin sin button funksjon
+        //martin sine funksjoner
         #region martin
         private void buttonNW_Click(object sender, EventArgs e)
         {
@@ -75,7 +75,8 @@ namespace Tekstlogg_og_menyvalg_test
         }
         #endregion
 
-        //Sander sin button fuksjon
+        //Sander sine funksjoner
+        #region Sander
         private void Antall_Button(int a)
         {
             buttonNW.Visible = false;
@@ -144,6 +145,9 @@ namespace Tekstlogg_og_menyvalg_test
             }
         }
 
+        #endregion
+
+        //julian sine funksjoner
         #region Julian
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -173,7 +177,8 @@ namespace Tekstlogg_og_menyvalg_test
         }
         #endregion
 
-
+        //Inam sine funksjoner
+        #region Inam
         // funksjon for å bytte bakgrunn Forfatter: Inam
         // feks når du trykker på en by på menyvalget så skal bilde av byen dukke opp
 
@@ -195,5 +200,6 @@ namespace Tekstlogg_og_menyvalg_test
         //{
         //    bytteBakgrunn();
         //}
+        #endregion
     }
 }
