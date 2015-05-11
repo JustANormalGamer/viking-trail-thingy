@@ -79,7 +79,15 @@ namespace Tekstlogg_og_menyvalg_test.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        public static string ByInfo { get; set; }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap under {
+            get {
+                object obj = ResourceManager.GetObject("under", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

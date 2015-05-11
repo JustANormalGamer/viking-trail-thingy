@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading;
 
 
 namespace Tekstlogg_og_menyvalg_test
@@ -139,7 +140,14 @@ namespace Tekstlogg_og_menyvalg_test
                     }
                 case "Reise":
                     {
-
+                        kartpos("Lindesfarne");
+                        pictureBox3.Visible = true;
+                        break;
+                    }
+                case "Plyndre":
+                    {
+                        pb_Reise.Visible = true;
+                        timer1.Start();
                         break;
                     }
             }
@@ -156,14 +164,38 @@ namespace Tekstlogg_og_menyvalg_test
             bI[2] = new ByInfo("York",776,272,30,130);
             bI[3] = new ByInfo("Edinburgh",772,238,35,140);
             bI[4] = new ByInfo("Shetland",813,162,20,90);
-            bI[4] = new ByInfo("Orkenøyene",803,182,25,100);
-            bI[4] = new ByInfo("Aberdeen",783,229,40,130);
-            bI[4] = new ByInfo("Skegness",788,302,40,140);
-            bI[4] = new ByInfo("London",773,340,50,200);
-            bI[4] = new ByInfo("Paris",791,393,70,250);
-            bI[4] = new ByInfo("Amsterdam",834,333,60,230);
+            bI[5] = new ByInfo("Orkenøyene",803,182,25,100);
+            bI[6] = new ByInfo("Aberdeen",783,229,40,130);
+            bI[7] = new ByInfo("Skegness",788,302,40,140);
+            bI[8] = new ByInfo("London",773,340,50,200);
+            bI[9] = new ByInfo("Paris",791,393,70,250);
+            bI[10] = new ByInfo("Amsterdam",834,333,60,230);
+            pictureBox3.Visible = true;
+            kartpos("Bergen");
+        }
+        private void kartpos(string bynavn)
+        {
+            for (int i = 0; i < 11; i++)
+            {
+                if (bI[i].ByNavn == bynavn)
+                {
+                    pictureBox3.Location = new Point(bI[i].ByPosX, bI[i].ByPosY);
+                }
+            }
         }
         #endregion
+
+        //kunn for demo
+        int under = 0;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            under++;
+            if(under == 2)
+            {
+                pb_Reise.Visible = false;
+                timer1.Stop();
+            }
+        }
 
         //Inam sine funksjoner
         #region Inam

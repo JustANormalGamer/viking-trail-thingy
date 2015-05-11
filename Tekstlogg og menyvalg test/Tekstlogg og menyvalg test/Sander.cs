@@ -49,16 +49,20 @@ namespace Tekstlogg_og_menyvalg_test
                     {
                         labelText += "\nPlayer: Plyndre!\nJulian: Hvordan da?\nVi har ikke lagt det inn ennå?";
                         dialog[0] = labelText;
-                        dialog[1] = "Kjipt";
-                        dialog[2] = "Hvem er ansvarlig?";
+                        dialog[1] = "Ok";
+                        dialog[2] = "Nei";
+                        dialog[5] = "Plyndre";
+                        dialog[6] = "2";
                         break;
                     }
-                case "Over hva?":
+                case "Til sjøs":
                     {
-                        labelText += "\nPlayer: Over hva?\nJulian: Programmering";
+                        labelText += "\nPlaye: Til sjøs\nVikingHvor vil du dra?\nNord eller Sør?";
                         dialog[0] = labelText;
-                        dialog[1] = "Sånn koding og shit?";
-                        dialog[2] = "Lame!!";
+                        dialog[1] = "Nord";
+                        dialog[2] = "Sør";
+                        dialog[5] = "Reise";
+                        dialog[6] = "2";
                         break;
                     }
                 case "Hvorfor det?":
