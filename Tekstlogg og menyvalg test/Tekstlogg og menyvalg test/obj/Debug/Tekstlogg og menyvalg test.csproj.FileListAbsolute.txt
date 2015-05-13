@@ -46,3 +46,6 @@ E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg 
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Form1.resources
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Properties.Resources.resources
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csproj.GenerateResource.Cache
+D:\VikingTrail\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe.config
+D:\VikingTrail\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.exe
+D:\VikingTrail\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.pdb

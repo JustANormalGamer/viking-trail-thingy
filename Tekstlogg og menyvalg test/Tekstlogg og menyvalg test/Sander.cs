@@ -39,35 +39,36 @@ namespace Tekstlogg_og_menyvalg_test
                     }
                 case "Ta imot offer":
                     {
-                        labelText += "\nLandsby Ordfører: Ikke angrip!!!\nJulian: Gi oss penger så får vi se";
+                        labelText += "\nLandsby Ordfører: Ikke angrip!!!\nPlayer: Gi oss penger så får vi se\nViking vil du gå nord eller sør?";
                         dialog[0] = labelText;
-                        dialog[1] = "Båt";
-                        dialog[2] = "Horer";
+                        dialog[1] = "Nord";
+                        dialog[2] = "Sør";
+                        dialog[5] = "Ta i mot offer, Lidesfarne";
                         break;
                     }
                 case "Plyndre":
                     {
-                        labelText += "\nPlayer: Plyndre!\nJulian: Hvordan da?\nVi har ikke lagt det inn ennå?";
+                        labelText += "\nPlayer: Plyndre!\nAngrip!!!!!";
                         dialog[0] = labelText;
-                        dialog[1] = "Ok";
-                        dialog[2] = "Nei";
-                        dialog[5] = "Plyndre";
+                        dialog[1] = "Nord";
+                        dialog[2] = "Sør";
+                        dialog[5] = "Plyndre, Lindesfarne";
                         dialog[6] = "2";
                         break;
                     }
                 case "Til sjøs":
                     {
-                        labelText += "\nPlaye: Til sjøs\nVikingHvor vil du dra?\nNord eller Sør?";
+                        labelText += "\nPlayer: Til sjøs\nVikingHvor vil du dra?\nNord eller Sør?";
                         dialog[0] = labelText;
                         dialog[1] = "Nord";
                         dialog[2] = "Sør";
-                        dialog[5] = "Reise";
+                        dialog[5] = "Reise, Lindesfarne";
                         dialog[6] = "2";
                         break;
                     }
-                case "Hvorfor det?":
+                case "Nord":
                     {
-                        labelText += "\nPlayer: Hvorfor det?\nJulian: Jeg er ble valgt";
+                        labelText += "\nPlayer: Nord!\nViking: Der! jeg tror vi kan se Edinburgh!";
                         dialog[0] = labelText;
                         dialog[1] = "Dårlig valgt!";
                         dialog[2] = "Det skjønner jeg";

@@ -86,6 +86,8 @@
   <ItemGroup>
     <Content Include="Label_Bakgrunn.png" />
     <Content Include="Resources\Label_Bakgrunn.png" />
+    <Content Include="Resources\skip.gif" />
+    <None Include="Resources\skip1.gif" />
     <Content Include="Resources\under.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -99,7 +99,8 @@
             // 
             // pb_Reise
             // 
-            this.pb_Reise.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.under;
+            this.pb_Reise.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.skip;
+            this.pb_Reise.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_Reise.Location = new System.Drawing.Point(571, 23);
             this.pb_Reise.Name = "pb_Reise";
             this.pb_Reise.Size = new System.Drawing.Size(596, 568);
