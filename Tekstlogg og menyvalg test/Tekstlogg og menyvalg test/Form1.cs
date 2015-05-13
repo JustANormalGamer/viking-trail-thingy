@@ -25,6 +25,11 @@ namespace Tekstlogg_og_menyvalg_test
 
         //martin sine funksjoner
         #region martin
+
+        int CurrentGold = 0;
+        int CurrentBy = 0;
+        int[] tid = new int[2];
+
         private void buttonNW_Click(object sender, EventArgs e)
         {
             button_check(4);
@@ -74,10 +79,25 @@ namespace Tekstlogg_og_menyvalg_test
                 MessageBox.Show("feil på nummer for antall knapper");
             }
         }
+        private void leggTilDag()
+        {
+            tid[0] += 1;
+            if (tid[0] == 8) 
+            {
+                tid[0] = 1;
+                tid[1] += 1;
+                tidLabel.Text = "Dag " + tid[0] + "\t";
+                if (tid[1] > 0)
+                {
+                    tidLabel.Text += "Uke " + tid[1];
+                }
+            }
+        }
         #endregion
 
         //Sander sine funksjoner
         #region Sander
+        
         private void Antall_Button(int a)
         {
             buttonNW.Visible = false;
@@ -120,6 +140,7 @@ namespace Tekstlogg_og_menyvalg_test
         {
             string[] Dialog = new string[7];
             var m = new Sander();
+            var ma = new MartinGoldClass();
             Dialog = m.Dialogg(buttonPressed, labelText);
             label2.Text = Dialog[0];
             buttonNW.Text = Dialog[1];
@@ -127,6 +148,9 @@ namespace Tekstlogg_og_menyvalg_test
             buttonSW.Text = Dialog[3];
             buttonSE.Text = Dialog[4];
             Antall_Button(Convert.ToInt16(Dialog[6]));
+            //CurrentGold = ma.GoldAdd(CurrentGold, (antall kister etter plyndring), bI[CurrentBy].PlyndringVerdi, bI[CurrentBy].PeaceOfferingVerdi);
+            //pengerLabel.Text = CurrentGold;
+            //leggTilDag();
             switch (Dialog[5])
             {
                 case "Avslutt":
@@ -159,6 +183,8 @@ namespace Tekstlogg_og_menyvalg_test
         #region Julian
         private void Form1_Load(object sender, EventArgs e)
         {
+            tid[0] = 1;
+            tid[1] = 0;
             bI[0] = new ByInfo("Bergen",866,190,0,0);
             bI[1] = new ByInfo("Lindesfarne", 781, 249, 40, 150);
             bI[2] = new ByInfo("York",776,272,30,130);
@@ -180,6 +206,7 @@ namespace Tekstlogg_og_menyvalg_test
                 if (bI[i].ByNavn == bynavn)
                 {
                     pictureBox3.Location = new Point(bI[i].ByPosX, bI[i].ByPosY);
+                    CurrentBy = i;
                 }
             }
         }

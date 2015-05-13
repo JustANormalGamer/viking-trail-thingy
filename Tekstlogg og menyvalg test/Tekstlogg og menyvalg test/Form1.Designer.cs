@@ -39,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pengerLabel = new System.Windows.Forms.Label();
+            this.tidLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Reise)).BeginInit();
             this.Label_Panel.SuspendLayout();
@@ -143,11 +145,35 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pengerLabel
+            // 
+            this.pengerLabel.AutoSize = true;
+            this.pengerLabel.BackColor = System.Drawing.Color.Transparent;
+            this.pengerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pengerLabel.Location = new System.Drawing.Point(58, 630);
+            this.pengerLabel.Name = "pengerLabel";
+            this.pengerLabel.Size = new System.Drawing.Size(29, 31);
+            this.pengerLabel.TabIndex = 10;
+            this.pengerLabel.Text = "0";
+            // 
+            // tidLabel
+            // 
+            this.tidLabel.AutoSize = true;
+            this.tidLabel.BackColor = System.Drawing.Color.Transparent;
+            this.tidLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tidLabel.Location = new System.Drawing.Point(58, 689);
+            this.tidLabel.Name = "tidLabel";
+            this.tidLabel.Size = new System.Drawing.Size(86, 31);
+            this.tidLabel.TabIndex = 12;
+            this.tidLabel.Text = "Dag 1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1367, 768);
+            this.Controls.Add(this.tidLabel);
+            this.Controls.Add(this.pengerLabel);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pb_Reise);
             this.Controls.Add(this.Label_Panel);
@@ -167,6 +193,7 @@
             this.Label_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -182,6 +209,8 @@
         private System.Windows.Forms.PictureBox pb_Reise;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label pengerLabel;
+        private System.Windows.Forms.Label tidLabel;
     }
 }
 
