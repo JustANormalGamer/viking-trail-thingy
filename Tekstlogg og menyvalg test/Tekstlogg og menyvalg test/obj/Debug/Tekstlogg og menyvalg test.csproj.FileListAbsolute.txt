@@ -46,3 +46,12 @@ E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg 
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Form1.resources
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Properties.Resources.resources
 E:\Visual basic\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csproj.GenerateResource.Cache
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe.config
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.exe
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.pdb
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.exe
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\bin\Debug\Tekstlogg og menyvalg test.pdb
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csprojResolveAssemblyReference.cache
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Form1.resources
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg_og_menyvalg_test.Properties.Resources.resources
+D:\elei0307\Documents\GitHub\viking-trail-thingy\Tekstlogg og menyvalg test\Tekstlogg og menyvalg test\obj\Debug\Tekstlogg og menyvalg test.csproj.GenerateResource.Cache

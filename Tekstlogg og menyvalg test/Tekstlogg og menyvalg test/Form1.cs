@@ -224,6 +224,8 @@ namespace Tekstlogg_og_menyvalg_test
             }
         }
 
+        
+
         //Inam sine funksjoner
         #region Inam
         // funksjon for å bytte bakgrunn Forfatter: Inam
@@ -248,5 +250,13 @@ namespace Tekstlogg_og_menyvalg_test
         //    bytteBakgrunn();
         //}
         #endregion
+
+        //Eirik sine funskjoner
+        #region Eirik
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel1.Hide();
+        }
+        #endregion Eirik
     }
 }
