@@ -83,6 +83,16 @@ namespace Tekstlogg_og_menyvalg_test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Reise_animasjon {
+            get {
+                object obj = ResourceManager.GetObject("Reise-animasjon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap under {
             get {
                 object obj = ResourceManager.GetObject("under", resourceCulture);

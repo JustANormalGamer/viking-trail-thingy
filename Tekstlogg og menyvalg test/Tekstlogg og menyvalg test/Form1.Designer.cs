@@ -34,21 +34,21 @@
             this.buttonNE = new System.Windows.Forms.Button();
             this.buttonSW = new System.Windows.Forms.Button();
             this.buttonSE = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pb_Reise = new System.Windows.Forms.PictureBox();
-            this.Label_Panel = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pengerLabel = new System.Windows.Forms.Label();
             this.tidLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pb_Reise = new System.Windows.Forms.PictureBox();
+            this.Label_Panel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Reise)).BeginInit();
             this.Label_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonNW
@@ -92,57 +92,6 @@
             this.buttonSE.UseVisualStyleBackColor = true;
             this.buttonSE.Visible = false;
             this.buttonSE.Click += new System.EventHandler(this.Dialog_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Red;
-            this.pictureBox3.Location = new System.Drawing.Point(943, 252);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(10, 10);
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Visible = false;
-            // 
-            // pb_Reise
-            // 
-            this.pb_Reise.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.under;
-            this.pb_Reise.Location = new System.Drawing.Point(571, 23);
-            this.pb_Reise.Name = "pb_Reise";
-            this.pb_Reise.Size = new System.Drawing.Size(596, 568);
-            this.pb_Reise.TabIndex = 8;
-            this.pb_Reise.TabStop = false;
-            this.pb_Reise.Visible = false;
-            // 
-            // Label_Panel
-            // 
-            this.Label_Panel.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.Label_Bakgrunn;
-            this.Label_Panel.Controls.Add(this.label2);
-            this.Label_Panel.Location = new System.Drawing.Point(25, 23);
-            this.Label_Panel.Name = "Label_Panel";
-            this.Label_Panel.Size = new System.Drawing.Size(337, 568);
-            this.Label_Panel.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(3, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(271, 24);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Viking: Er du klar for å plyndre?";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Tekstlogg_og_menyvalg_test.Properties.Resources.BakgrunnRødStor;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1367, 768);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // timer1
             // 
@@ -197,6 +146,58 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Red;
+            this.pictureBox3.Location = new System.Drawing.Point(943, 252);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(10, 10);
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
+            // 
+            // pb_Reise
+            // 
+            this.pb_Reise.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.Reise_animasjon;
+            this.pb_Reise.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_Reise.Location = new System.Drawing.Point(571, 23);
+            this.pb_Reise.Name = "pb_Reise";
+            this.pb_Reise.Size = new System.Drawing.Size(596, 568);
+            this.pb_Reise.TabIndex = 8;
+            this.pb_Reise.TabStop = false;
+            this.pb_Reise.Visible = false;
+            // 
+            // Label_Panel
+            // 
+            this.Label_Panel.BackgroundImage = global::Tekstlogg_og_menyvalg_test.Properties.Resources.Label_Bakgrunn;
+            this.Label_Panel.Controls.Add(this.label2);
+            this.Label_Panel.Location = new System.Drawing.Point(25, 23);
+            this.Label_Panel.Name = "Label_Panel";
+            this.Label_Panel.Size = new System.Drawing.Size(337, 568);
+            this.Label_Panel.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(271, 24);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Viking: Er du klar for å plyndre?";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Tekstlogg_og_menyvalg_test.Properties.Resources.BakgrunnRødStor;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1367, 768);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,12 +219,12 @@
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Reise)).EndInit();
             this.Label_Panel.ResumeLayout(false);
             this.Label_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

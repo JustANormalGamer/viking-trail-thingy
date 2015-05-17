@@ -227,7 +227,7 @@ namespace Tekstlogg_og_menyvalg_test
                     }
                case "Sør!!":
                     {
-                        labelText += "\nPlayer: Nord\nViking: Jeg tror jeg ser Skegness!";
+                        labelText += "\nPlayer: Nord\nViking: Jeg tror jeg ser London!";
                         dialog[0] = labelText;
                         dialog[1] = "Ta imot Offer!!!";
                         dialog[2] = "PLYNDRE!";
@@ -264,7 +264,15 @@ namespace Tekstlogg_og_menyvalg_test
                         break;
                     }
 
-               
+               case "PLYNDRE!":
+                    {
+                        labelText += "\nPlayer: Plyndre!\nTil Angrep!!!!!\nViking: Hvor vil du dra nå, Kaptein?";
+                        dialog[0] = labelText;
+                        dialog[1] = "Til Paris!";
+                        dialog[5] = "Plyndre, London";
+                        dialog[6] = "1";
+                        break;
+                    }
                case "Ta imot Offer!!!":
                     {
                         labelText += "\nLandsby Ordfører: Ikke angrip!!!\nPlayer: Gi oss penger så får vi se\nViking: Hvor hen nå Kapetein?";
@@ -280,8 +288,9 @@ namespace Tekstlogg_og_menyvalg_test
                         dialog[0] = labelText;
                         dialog[1] = "Plyndre og vinn";
                         dialog[2] = "pensjonere deg";
+                        dialog[3] = "Ta i mot Penger å dra hjem";
                         dialog[5] = "Reise, Paris";
-                        dialog[6] = "2";
+                        dialog[6] = "3";
                         break;
                     }
                 case "Plyndre og vinn":
@@ -300,7 +309,15 @@ namespace Tekstlogg_og_menyvalg_test
                         dialog[6] = "4";
                         break;
                     }
-
+                case "Ta i mot Penger å dra hjem":
+                    {
+                        labelText += "\nLandsby Ordfører: Ikke angrip!!!\nPlayer: Gi oss penger så får vi se\nViking: Hvor hen nå Kapetein?\nPlayer: Hjem!";
+                        dialog[0] = labelText;
+                        dialog[1] = "Til Paris!";
+                        dialog[5] = "Peace, Paris";
+                        dialog[6] = "1";
+                        break;
+                    }
              }
             return dialog;
         }

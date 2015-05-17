@@ -127,4 +127,7 @@
   <data name="under" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\under.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Reise-animasjon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reise-animasjon1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

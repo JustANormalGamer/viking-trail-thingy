@@ -87,6 +87,8 @@
   <ItemGroup>
     <Content Include="Label_Bakgrunn.png" />
     <Content Include="Resources\Label_Bakgrunn.png" />
+    <Content Include="Resources\Reise-animasjon.gif" />
+    <None Include="Resources\Reise-animasjon1.gif" />
     <Content Include="Resources\under.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
