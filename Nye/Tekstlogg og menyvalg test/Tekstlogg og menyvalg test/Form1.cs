@@ -815,6 +815,11 @@ namespace Tekstlogg_og_menyvalg_test
 
          }
 
+         private void panel2_Paint(object sender, PaintEventArgs e)
+         {
+
+         }
+
          
 
     }
