@@ -32,6 +32,7 @@ namespace Tekstlogg_og_menyvalg_test
             CountDown.Start();
             timer3.Start();
             panel2.Dock = DockStyle.Fill;
+            button1.Select();
             
         }
 
@@ -739,6 +740,17 @@ namespace Tekstlogg_og_menyvalg_test
                
         #endregion
 
+         //Erik sine funksjoner
+         #region Erik
+
+        
+         private void button1_KeyPress(object sender, KeyPressEventArgs e)
+         {
+             panel1.Hide();
+         }
+
+         #endregion
+
          private void timer3_Tick(object sender, EventArgs e)
          {
              Random rnd = new Random();
@@ -802,6 +814,8 @@ namespace Tekstlogg_og_menyvalg_test
              }
 
          }
+
+         
 
     }
 }
