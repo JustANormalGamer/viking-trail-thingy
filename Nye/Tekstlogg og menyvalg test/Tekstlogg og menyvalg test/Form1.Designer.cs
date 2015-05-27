@@ -42,6 +42,7 @@
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pB4 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -60,7 +61,6 @@
             this.pB3 = new System.Windows.Forms.PictureBox();
             this.pB5 = new System.Windows.Forms.PictureBox();
             this.pB6 = new System.Windows.Forms.PictureBox();
-            this.pB4 = new System.Windows.Forms.PictureBox();
             this.pB2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -71,6 +71,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pB4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -86,7 +87,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pB3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pB4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -217,6 +217,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1367, 768);
             this.panel2.TabIndex = 1;
+            // 
+            // pB4
+            // 
+            this.pB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.pB4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pB4.BackgroundImage")));
+            this.pB4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pB4.Location = new System.Drawing.Point(789, 635);
+            this.pB4.Name = "pB4";
+            this.pB4.Size = new System.Drawing.Size(578, 133);
+            this.pB4.TabIndex = 23;
+            this.pB4.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -403,17 +414,6 @@
             this.pB6.TabIndex = 24;
             this.pB6.TabStop = false;
             // 
-            // pB4
-            // 
-            this.pB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pB4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pB4.BackgroundImage")));
-            this.pB4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pB4.Location = new System.Drawing.Point(789, 635);
-            this.pB4.Name = "pB4";
-            this.pB4.Size = new System.Drawing.Size(578, 133);
-            this.pB4.TabIndex = 23;
-            this.pB4.TabStop = false;
-            // 
             // pB2
             // 
             this.pB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -528,6 +528,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pB4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -543,7 +544,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pB3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pB4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pB2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
